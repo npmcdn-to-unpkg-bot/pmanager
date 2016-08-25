@@ -6,6 +6,11 @@ from projects.serializers import CategorySerializer, ProjectSerializer
 
 
 # Create your views here.
+def index(request):
+    return render(request, 'projects/index.html')
+
+
+# API viewsets
 class CategoryViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows categories to be viewed or edited.

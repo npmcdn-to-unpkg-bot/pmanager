@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    {% load staticfiles %}
+    <script src="{% static 'projects/js/react/react.js' %}"></script>
+    <script src="{% static 'projects/js/react/react-dom.js' %}"></script>
+    <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
+
+    <title>{% block title %}Project Manager{% endblock %}</title>
+
+    {% block html_head %}
+    {% endblock %}
+  </head>
+  <body>
+    {% block html_body %}
+    {% endblock %}
+  </body>
+</html>
