@@ -1,0 +1,9 @@
+configparser==3.5.0
+Django==1.10
+enum34==1.1.6
+flake8==3.0.3
+jedi==0.9.0
+mccabe==0.5.2
+pep8==1.7.0
+pycodestyle==2.0.0
+pyflakes==1.2.3
